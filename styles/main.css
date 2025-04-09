@@ -1,0 +1,65 @@
+@import url('variables.css');
+/* variable main */
+.leftBlock {
+    display: flex; 
+    justify-content: center;
+    gap: 38px; 
+    margin: 50px auto;
+}
+.leftTextBlock{
+    width: 545px; 
+    height: 286px; 
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 30px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+.leftTextBlock p {
+    color: white; 
+    font-size: 24px;
+    margin-bottom: auto;
+    font-family: 'sans_serif_plus_7', Regular;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.leftButton {
+    background: var(--main-yellow);
+    color: black;
+    padding: 10px 20px;
+    margin-left: auto;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 0 0 20px; 
+    align-self: flex-start; 
+    font-family: 'DaMiOne';
+    font-size: 21px;
+    text-decoration: underline;
+    -webkit-text-stroke: 0.5px #000000;
+}
+
+.image {
+    height: 346px; 
+    width: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.rightButton {
+    background: var(--main-yellow); 
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 0 20px 0;
+    align-self: flex-start;
+    font-family: 'DaMiOne';
+    font-size: 21px;
+    text-decoration: underline;
+    -webkit-text-stroke: 0.5px #000000;
+}
+
+
+.footer {
+    background: url("../assets/background-main.png") center/cover no-repeat; 
+}
+
